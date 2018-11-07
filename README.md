@@ -48,6 +48,7 @@ These levels can be used independently, or together. They can best be used toget
 ```python
 >>> from activitypub.manager import Manager
 >>> from activitypub.database import ListDatabase
+>>> from activitypub.bson import ObjectId
 >>> db = ListDatabase()
 >>> manager = Manager(database=db)
 >>> p = manager.Person(id="alyssa")
